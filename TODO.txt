@@ -1,0 +1,7 @@
+TODO:
+
+    Custom colors?
+        Automatically take colors from active editor theme?
+        References AfterglowTheme for settings UI
+    Even though Dracula IDE theme is forced, Settings -> Appearance & Behavior -> Appearance may still show whatever
+        was previously used, can we fix this?
