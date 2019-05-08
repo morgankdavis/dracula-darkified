@@ -1,0 +1,60 @@
+<idea-plugin>
+    <id>net.morgankdavis.DraculaDarkified</id>
+    <name>Dracula Darkified</name>
+    <vendor email="mkd@marbles.xyz" url="http://www.morgankdavis.net">Morgan K. Davis</vendor>
+    <version>1.0</version>
+
+    <description><![CDATA[
+    Built-in Dracula appearance theme with a darker tree/tool window background.<br>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Version 1.0<br>
+      <em>Initial release.</em>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="183"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+    <depends>com.intellij.modules.platform</depends>
+
+
+    <application-components>
+        <component>
+            <!-- Interface and implementation classes are the same -->
+            <implementation-class>DarkifiedApplication</implementation-class>
+
+        </component>
+    </application-components>
+
+    <project-components>
+        <component>
+            <!-- Interface and implementation classes are the same -->
+            <implementation-class>DarkifiedProject</implementation-class>
+
+            <!-- If the "workspace" option is set "true", the component
+                 saves its state to the .iws file instead of the .ipr file.
+                 Note that the <option> element is used only if the component
+                 implements the JDOMExternalizable interface. Otherwise, the
+                 use of the <option> element takes no effect.  -->
+            <!--            <option name="workspace" value="true" />-->
+
+            <!-- If the "loadForDefaultProject" tag is present, the project component is instantiated also for the default project. -->
+            <!-- <loadForDefaultProject/> -->
+        </component>
+    </project-components>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
