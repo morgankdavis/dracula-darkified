@@ -3,7 +3,7 @@ plugins {
     id 'org.jetbrains.intellij' version '0.4.8'
 }
 
-group 'net.morgankdavis'
+group 'net.mkd'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
@@ -18,7 +18,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2019.1.1'
+    version '2019.3.2'
 }
 patchPluginXml {
     changeNotes """

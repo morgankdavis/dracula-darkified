@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>net.morgankdavis.DraculaDarkified</id>
     <name>Dracula Darkified</name>
-    <vendor email="mkd@marbles.xyz" url="http://www.morgankdavis.net">Morgan K. Davis</vendor>
+    <vendor email="mkd@mkd.net" url="http://www.mkd.net">Morgan K. Davis</vendor>
     <version>1.0</version>
 
     <description><![CDATA[
@@ -15,7 +15,7 @@
     </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="183"/>
+    <idea-version since-build="193"/>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
