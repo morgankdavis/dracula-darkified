@@ -10,7 +10,7 @@ public class DarkifiedProject implements ProjectComponent {
      Types, Properties and iVars
      *********************************************************************************************/
 
-    private static final Logger log = Logger.getInstance("net.morgankdavis.DraculaDarkified.DarkifiedProject");
+    private static final Logger log = Logger.getInstance("net.mkd.DraculaDarkified.DarkifiedProject");
 
     /*********************************************************************************************
      Lifecycle

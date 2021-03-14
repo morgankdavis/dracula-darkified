@@ -13,7 +13,7 @@ public class DarkifiedApplication implements ApplicationComponent {
      Types, Properties and iVars
      *********************************************************************************************/
 
-    private static final Logger log = Logger.getInstance("net.morgankdavis.DraculaDarkified.DarkifiedApplication");
+    private static final Logger log = Logger.getInstance("net.mkd.DraculaDarkified.DarkifiedApplication");
 
     /*********************************************************************************************
      ApplicationComponent
@@ -34,8 +34,11 @@ public class DarkifiedApplication implements ApplicationComponent {
             log.debug(e.getMessage());
         }
 
+
+
+
         Color selectionColor = Gray._54;
-        Color backgroundColor = Gray._32;
+        Color backgroundColor = Gray._30; // 30, 30, 30 / 1E1E1E is my theme background
         Color textColor = Gray._160;
 
         UIManager.put("Tree.background", backgroundColor);
